@@ -1,0 +1,6 @@
+<launch>
+<node pkg="send_gps" name = "send_gps_service" type="srv_send_gps.py" output="screen">
+</node>
+
+
+</launch>

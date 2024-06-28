@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+<include file="$(find gps_navigation)/launch/start_map_server.launch"/>
+<include file="$(find gps_navigation)/launch/ekf_localization2.launch" />
+
+
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find main)/config/config_last.rviz">
+      </node>
+
+
+</launch>

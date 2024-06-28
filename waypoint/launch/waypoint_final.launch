@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find waypoint)/config/starting_point.yaml" command="load" ns="starting_parameters"/>
+    <node name = "waypoint" pkg="waypoint" type="world_waypoints2.py" output="screen"/>
+    
+</launch>

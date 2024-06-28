@@ -1,0 +1,6 @@
+<launch>
+<node pkg="gps_collector" name = "rtk_sensor" type="rtk_gps_serial.py" output="screen">
+</node>
+
+
+</launch>
